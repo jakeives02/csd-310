@@ -18,10 +18,10 @@ try:
     
 except mysql.connector.Error as err:
     if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
-        print(" The supllied username or password are invalid")
+        print(" The username or password are invalid")
         
     elif err.errno == errorcode.ER_BAD_DB_ERROR:
-        print("  The specified databaser does not exist")
+        print("  The specified database does not exist")
      
     else:
         print(err)
