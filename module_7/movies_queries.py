@@ -1,6 +1,6 @@
 import mysql.connector
 from mysql.connector import errorcode
-# Jacob Ives 11/19/2022 - Run queries using Python
+# Jacob Ives 11/27/2022 - Run queries using Python
 config = {
     "user": "Jake",
     "password": "root",
